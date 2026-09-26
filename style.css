@@ -1,0 +1,87 @@
+:root {
+    --h: 200px;
+}
+
+body {
+    background-color: black;
+}
+
+.red {
+    display: grid;
+    place-items: center;
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    font-size: 200;
+    border: 10px solid crimson;
+    border-radius: 20px;
+    height:var(--h);
+    width:150px;
+    padding: 10px;
+    text-align: center;
+    margin:50px;
+}
+
+.orange {
+    display: grid;
+    place-items: center;
+    background-color: orange;
+    font-family: comic sans-serif;
+    color:brown;
+    font-size: 20px;
+    border: 20px double #BE5504;
+    border-radius: 20%;
+    height:var(--h);
+    width:300px;
+    padding: 20px;
+    text-align: center;
+    margin:50px;
+}
+
+.yellow {
+    display: grid;
+    place-items: center;
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    color:#BE5504;
+    font-size: 50px;
+    border: 20px dotted orange;
+    border-radius: 50px;
+    height:var(--h);
+    width:450px;
+    padding: 20px;
+    text-align: center;
+    margin:50px;
+}
+
+.green {
+    display: grid;
+    place-items: center;
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 50, 0);
+    font-size: 50px;
+    border: 20px dashed lime;
+    border-radius: 25px;
+    height:var(--h);
+    width:600px;
+    padding: 20px;
+    text-align: center;
+    margin:50px;
+}
+
+.blue {
+    display: grid;
+    place-items: center;
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 50px;
+    border: 20px groove blue;
+    border-radius: 10%;
+    height:var(--h);
+    width:750px;
+    padding: 20px;
+    text-align: center;
+    margin:50px;
+}
